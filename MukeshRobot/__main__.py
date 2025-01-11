@@ -81,14 +81,12 @@ PM_START_TEXT = """
 buttons = [
         [
         
-        InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"),
-      InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", callback_data="source_"),
-       InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
+        
+       url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
+        ),
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅ", callback_data="Main_help"),
      ],
-            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
-        ),
-    ],
+            
     [
         InlineKeyboardButton(text="˹ ʜєʟᴘ ᴧηᴅ ᴄσϻϻᴧηᴅ | ᴍσʀє ɪηғσ ˼", callback_data="Main_help"),
     ],

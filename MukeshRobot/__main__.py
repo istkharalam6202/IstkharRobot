@@ -81,7 +81,8 @@ PM_START_TEXT = """
 buttons = [
     [
         
-        InlineKeyboardButton(text="ʜᴏᴍᴇ", callback_data="mukesh_"),
+        InlineKeyboardButton(
+            text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅ", callback_data="Main_help"),
      ],

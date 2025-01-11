@@ -91,7 +91,7 @@ buttons = [
             text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
-    ],
+   
     [
         InlineKeyboardButton(text="˹ ʜєʟᴘ ᴧηᴅ ᴄσϻϻᴧηᴅ | ᴍσʀє ɪηғσ ˼", callback_data="Main_help"),
     ],

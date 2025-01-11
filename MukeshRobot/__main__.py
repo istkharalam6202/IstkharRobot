@@ -80,7 +80,7 @@ PM_START_TEXT = """
 
 buttons = [
   
-        
+       [ 
        InlineKeyboardButton(
             text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙",
        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"tg://user?id={OWNER_ID}"),
